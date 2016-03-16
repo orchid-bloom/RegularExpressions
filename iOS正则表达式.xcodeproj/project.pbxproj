@@ -15,6 +15,7 @@
 		B6F4FD5F1C99513100C88F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6F4FD5D1C99513100C88F0E /* LaunchScreen.storyboard */; };
 		B6F4FD6A1C99513100C88F0E /* iOS_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD691C99513100C88F0E /* iOS_____Tests.m */; };
 		B6F4FD751C99513100C88F0E /* iOS_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD741C99513100C88F0E /* iOS_____UITests.m */; };
+		B6F4FD841C99515100C88F0E /* NSString+PJR.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F4FD831C99515100C88F0E /* NSString+PJR.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6F4FD701C99513100C88F0E /* iOS正则表达式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS正则表达式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F4FD741C99513100C88F0E /* iOS_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_____UITests.m"; sourceTree = "<group>"; };
 		B6F4FD761C99513100C88F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6F4FD821C99515100C88F0E /* NSString+PJR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PJR.h"; sourceTree = "<group>"; };
+		B6F4FD831C99515100C88F0E /* NSString+PJR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PJR.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		B6F4FD4E1C99513100C88F0E /* iOS正则表达式 */ = {
 			isa = PBXGroup;
 			children = (
+				B6F4FD821C99515100C88F0E /* NSString+PJR.h */,
+				B6F4FD831C99515100C88F0E /* NSString+PJR.m */,
 				B6F4FD521C99513100C88F0E /* AppDelegate.h */,
 				B6F4FD531C99513100C88F0E /* AppDelegate.m */,
 				B6F4FD551C99513100C88F0E /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F4FD841C99515100C88F0E /* NSString+PJR.m in Sources */,
 				B6F4FD571C99513100C88F0E /* ViewController.m in Sources */,
 				B6F4FD541C99513100C88F0E /* AppDelegate.m in Sources */,
 				B6F4FD511C99513100C88F0E /* main.m in Sources */,
